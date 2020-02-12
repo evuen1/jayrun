@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>JayRun</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/partials/bootstrap.min.css">
+	<link rel="stylesheet" href="css/partials/aos.css">
+	<link rel="stylesheet" href="css/partials/magnific-popup.css">
+	<link rel="stylesheet" href="css/partials/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/partials/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/partials/jquery.range2dslider.css">
+	<link rel="stylesheet" href="css/partials/magnific-popup.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/partials/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+	<script>
+		$(window).on('load', function() {
+			$('.preloader').delay(500).fadeOut('slow');
+		})
+	</script>
+
+	<div class="preloader">
+		<div class="preloader-pulse">
+			<img src="images/footer-logo.png" alt="">
+		</div>
+	</div>
+	
+	<main class="main">
+		<header class="header" id="header">
+
+				<div class="callback-block mfp-hide" id="callback-block">
+					<form action="index.html" id="callback-form">
+						<div class="callback-form-wrap">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="JayRun">
+							<input type="hidden" name="admin_email" value="baukabdi@yandex.ru">
+							<input type="hidden" name="email_from" value="info@baukabdi.ru">
+							<input type="hidden" name="form_subject" value="Новая заявка с сайта">
+							<!-- END Hidden Required Fields -->
+
+							<div class="callback-block__logo">
+								<img src="images/logo.png" alt="logo">
+							</div>
+
+							<div class="callback-block__input">
+								<input type="text" name="Имя" placeholder="Имя" required>
+								<input class="phone_us" name="Телефон" type="text" placeholder="Телефон" required>
+							</div>
+
+							<button class="callback-block__button">Отправить</button>
+						</div>
+
+						<div class="callback-form-succes">
+							<p>Спасибо за заявку, наш менеджер свяжется с вами в ближайшее время</p>
+						</div>
+					</form>
+				</div>
+
+			<div class="callback" data-aos-offset="50" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+				<a href="index.html#callback-block">
+					<span class="callback-img"><img src="images/call-volume.png" alt=""></span>
+					<p>Перезвонить</p>
+				</a>
+			</div>
+
+			<div class="container">
+
+				<div class="cap">
+
+					<div class="cap-left">
+						<div class="logo" data-aos-offset="50" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+							<a class="logo-desktop" href="index.html#"><img src="images/logo.png" alt="JayRun"></a>
+							<a class="logo-mobile" href="index.html#"><img src="images/footer-logo.png" alt="JayRun"></a>
+						</div>
+
+						<div class="logo-text" data-aos-offset="50" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
+							<p>Логистика перевозок и доставки груза из Китая</p>
+						</div>
+					</div>
+
+					<div class="cap-right">
+						<div class="call-envelope cap-envelope" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+							<div class="call-envelope-img envelope-img">
+								<img src="images/envelope.png" alt="g-mail">
+							</div>
+
+							<p>jayrun@mail.com</p>
+						</div>
+
+						<div class="call-envelope cap-call" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+							<div class="call-envelope-img call-img">
+								<img src="images/call-volume.png" alt="Обратная связь">
+							</div>
+
+							<p>8 800 800-00-00</p>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="main-content">
+					<div class="main-left">
+						<div class="main-title">
+							<h1 class="gradient-title" data-aos-offset="50" data-aos="fade-right" data-aos-duration="1500"><span class="h1-uppercase" data-aos-delay="1500">доставка</span> <br> грузов из Китая </h1>
+							<p data-aos-offset="50" data-aos="fade-right" data-aos-duration="3500" data-aos-delay="1000">Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Казахстана</p>
+						</div>
+					</div>
+
+					<div class="main-right">
+
+						<div class="cost-calculation" data-aos-offset="50" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+							<a href="index.html#"><img src="images/cost-calculation.png" alt="">Рассчитать стоимость</a>
+
+							<span class="center-arrow-right"><img src="images/center-arrow-right.png" alt=""></span>
+						</div>
+
+						<form action="index.html">
+							<div class="calculator">
+								<h3 data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">Калькулятор стоимости</h3>
+
+								<div class="calculator-select" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+									<div class="select-item">
+										<h5 class="calculator-min-title">От куда</h5>
+										<select name="" id="select-header">
+											<option value="">Шанхай</option>
+											<option value="">Алматы</option>
+										</select>
+									</div>
+
+									<div class="select-item">
+										<h5 class="calculator-min-title">Куда</h5>
+										<select name="" id="">
+											<option value="">Алматы</option>
+											<option value="">Шанхай</option>
+										</select>
+									</div>
+								</div>
+
+								<!-- range START -->
+								<div class="calculator-range" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900">
+									<h5 class="calculator-min-title">Выберите вес</h5>
+
+									<input class="calculator-range-item" type="range" value="0" min="0" max="50">
+								</div>
+								<!-- range END -->
+
+								<div class="calculator-radio" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1100">
+									<h5 class="calculator-min-title">Выберите тип перевозки</h5>
+
+									<div class="radio-item">
+
+										<div class="radio-input">
+											<input type="radio" id="calculator-radio-1" name="type-of-transportation">
+											<label for="calculator-radio-1">Море</label>
+										</div>
+										
+										<div class="radio-input">
+											<input type="radio" id="calculator-radio-2" name="type-of-transportation">
+											<label for="calculator-radio-2">ЖД</label>
+										</div>
+
+										<div class="radio-input">
+											<input type="radio" id="calculator-radio-3" name="type-of-transportation">
+											<label for="calculator-radio-3">Авто</label>
+										</div>
+
+										<div class="radio-input">
+											<input type="radio" id="calculator-radio-4" name="type-of-transportation">
+											<label for="calculator-radio-4">Авиа</label>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="calculator-user" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1300">
+									<div class="user-item">
+										<h5 class="calculator-min-title">Ваше имя</h5>
+										<input type="text">
+									</div>
+
+									<div class="user-item">
+										<h5 class="calculator-min-title">Ваш телефон</h5>
+										<input type="text" class="phone_us" placeholder="+7 8 (000) 000-00-00">
+									</div>
+								</div>
+
+								<div class="calculator-send" data-aos-offset="50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1500">
+									<button>Отправить</button>
+								</div>
+							</div>
+						</form>
+						
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="main-right-bg" style="background-image: url(images/header-right-bg.png);"></div>
+
+		</header>
+
+
+		<div class="features-about">
+			
+			<section class="features">
+				<div class="container">
+
+					<div class="features-content">
+						<h4 data-aos-offset="200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Наши преимущества</h4>
+
+						<div class="features-wrap">
+
+							<div class="features-item__aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+								<div class="features-item">
+									<img src="images/feature-1.png" alt="">
+									<p>Осуществляем перевозки c Китая в Казахстан</p>
+								</div>
+							</div>
+							
+							<div class="features-item__aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+								<div class="features-item">
+									<img src="images/feature-2.png" alt="">
+									<p>Отслеживание груза онлайн</p>
+								</div>
+							</div>
+
+							<div class="features-item__aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+								<div class="features-item">
+									<img src="images/feature-3.png" alt="">
+									<p>Минимальные тарифы на рынке</p>
+								</div>
+							</div>
+
+							<div class="features-item__aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
+								<div class="features-item">
+									<img src="images/feature-4.png" alt="">
+									<p>Помогаем пройти тамможенный контроль</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="features-bg-layer"></div>
+			</section>
+
+
+			<section class="about">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-lg-7 col-md-12">
+							<div class="about-content">
+								<h2 class="gradient-title" data-aos-offset="150" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">О нашей <br> <span class="h2-uppercase">компании</span></h2>
+
+								<div class="about-text" data-aos-offset="150" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">
+									<p>Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Украины, мы предоставляем собственный специализированный склад в г. Гуанджоу и Гонконге. Если у Вас возникает необходимость хранить груз некоторое время у нас на складе с целью консолидации, мы без проблем предоставляем такую услугу своим клиентам бесплатно.</p>
+
+									<p>Мы тщательно пакуем Ваш груз. Все места мы обматываем скотчем, чтобы предотвратить разрыв ящика или попадания влаги во время доставки из Китая. При необходимости мы согласовываем и делаем дополнительную упаковку из дерева или картона или пакуем груз в дополнительно в мешок. Это позволяет избежать рисков повреждения и сохранить товарный вид груза.</p>
+								</div>		
+
+								<a data-aos-offset="150" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" href="index.html#" class="about-button">Узнать больше</a>
+							</div>
+						</div>
+
+						<div class="col-lg-5 col-md-12">
+							<div class="about-video-wrap">
+								<a href="https://www.youtube.com/watch?v=rx1IhQapGhU" class="about-video" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50"></a>
+
+								<div class="about-video-quote" data-aos-offset="100" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">
+									<p>Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Казахстану</p>
+									<div class="about-video-overlay"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+		</div>
+
+		<section class="services">
+			<div class="container">
+				
+				<div class="services-content">
+					<div class="services-top">
+						<h2 data-aos-offset="200" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="50">Наши <br> <span class="h2-uppercase">услуги</span></h2>
+						<p data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="50">Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Украины, мы предоставляем собственный специализированный склад в г. Гуанджоу и Гонконге.</p>
+					</div>
+					
+					<div class="services-card">
+						<div class="row">
+
+							<!-- 1 START-->
+							<div class="col-lg-3 col-md-6">
+								<div class="services-card-aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+									<div class="services-card-item">
+										<h5>Тариф номер 1</h5>
+
+										<ul class="card-dots">
+											<li class="active"></li>
+											<li></li>
+											<li></li>
+											<li></li>
+										</ul>
+
+										<p>Если нужно быстро отправить почту или груз, можно воспользоваться различными сайтами и найти те службы экспресс-доставки или</p>
+
+										<div class="info-item">
+											<span>Вес</span>
+											<h6>От 10 тонн</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Расстояние</span>
+											<h6>до 5 000 км</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Сроки доставки</span>
+											<h6>до 65 дней</h6>
+										</div>
+
+										<a href="index.html#" class="service-order-btn">Заказать</a>
+									</div>
+								</div>
+							</div>
+							<!-- 1 END -->
+
+							<!-- 2 START-->
+							<div class="col-lg-3 col-md-6">
+								<div class="services-card-aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+									<div class="services-card-item">
+										<h5>Тариф номер 2</h5>
+
+										<ul class="card-dots">
+											<li></li>
+											<li class="active"></li>
+											<li></li>
+											<li></li>
+										</ul>
+
+										<p>Если нужно быстро отправить почту или груз, можно воспользоваться различными сайтами и найти те службы экспресс-доставки или</p>
+
+										<div class="info-item">
+											<span>Вес</span>
+											<h6>От 10 тонн</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Расстояние</span>
+											<h6>до 5 000 км</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Сроки доставки</span>
+											<h6>до 65 дней</h6>
+										</div>
+
+										<a href="index.html#" class="service-order-btn">Заказать</a>
+									</div>
+								</div>
+							</div>
+							<!-- 2 END -->
+
+							<!-- 3 START-->
+							<div class="col-lg-3 col-md-6">
+								<div class="services-card-aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+									<div class="services-card-item">
+										<h5>Тариф номер 3</h5>
+
+										<ul class="card-dots">
+											<li></li>
+											<li></li>
+											<li class="active"></li>
+											<li></li>
+										</ul>
+
+										<p>Если нужно быстро отправить почту или груз, можно воспользоваться различными сайтами и найти те службы экспресс-доставки или</p>
+
+										<div class="info-item">
+											<span>Вес</span>
+											<h6>От 10 тонн</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Расстояние</span>
+											<h6>до 5 000 км</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Сроки доставки</span>
+											<h6>до 65 дней</h6>
+										</div>
+
+										<a href="index.html#" class="service-order-btn">Заказать</a>
+									</div>
+								</div>
+							</div>
+							<!-- 3 END -->
+
+							<!-- 4 START-->
+							<div class="col-lg-3 col-md-6">
+								<div class="services-card-aos" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+									<div class="services-card-item">
+										<h5>Тариф номер 4</h5>
+
+										<ul class="card-dots">
+											<li></li>
+											<li></li>
+											<li></li>
+											<li class="active"></li>
+										</ul>
+
+										<p>Если нужно быстро отправить почту или груз, можно воспользоваться различными сайтами и найти те службы экспресс-доставки или</p>
+
+										<div class="info-item">
+											<span>Вес</span>
+											<h6>От 10 тонн</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Расстояние</span>
+											<h6>до 5 000 км</h6>
+										</div>
+
+										<div class="info-item">
+											<span>Сроки доставки</span>
+											<h6>до 65 дней</h6>
+										</div>
+
+										<a href="index.html#" class="service-order-btn">Заказать</a>
+									</div>
+								</div>
+							</div>
+							<!-- 4 END -->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="our-projects">
+			<div class="container">
+				
+				<div class="our-projects-content">
+					<div class="our-projects-top">
+						<h2 data-aos-offset="200" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100" class="gradient-title">Наши <br> <span class="h2-uppercase">проекты</span></h2>
+						<p data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Украины, мы предоставляем собственный специализированный склад в г. Гуанджоу и Гонконге. Если у Вас возникает необходимость хранить груз некоторое время у нас на складе с целью консолидации, мы без проблем предоставляем такую услугу </p>
+					</div>
+					
+					<div class="our-projects-gallery">
+						<div class="gallery-grid gallery-grid-top">
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-1.png" class="gallery-item" style="background-image: url(images/gallery-1.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-2.png" class="gallery-item" style="background-image: url(images/gallery-2.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-3.png" class="gallery-item" style="background-image: url(images/gallery-3.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+						</div>
+
+						<div class="gallery-grid gallery-grid-bottom">
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-4.png" class="gallery-item" style="background-image: url(images/gallery-4.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-5.png" class="gallery-item" style="background-image: url(images/gallery-5.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-6.png" class="gallery-item" style="background-image: url(images/gallery-6.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+							<a data-aos-offset="200" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" href="images/gallery-7.png" class="gallery-item" style="background-image: url(images/gallery-7.png);"><span class="zoom"><img src="images/loupe.png" alt=""></span></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="our-team">
+			<div class="container">
+				
+				<div class="our-team-top">
+					<h2 class="gradient-title" data-aos-offset="200" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">Наша <br> <span class="h2-uppercase">команда</span></h2>
+					<p data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">Для консолидации и дальнейшей грузоперевозки товаров из Китая в любую точку Украины, мы предоставляем собственный специализированный склад в г. Гуанджоу и Гонконге. Если у Вас возникает необходимость хранить груз некоторое время у нас на складе с целью консолидации, мы без проблем предоставляем такую услугу </p>
+				</div>
+
+				<div class="our-team-wrap">
+					<!-- TEAM 1 START -->
+					<div class="our-team-item" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+						<div class="our-team-item-top" style="background-image: url(images/team-1.png);"></div>
+						<div class="our-team-item-bottom">
+							<h4 class="gradient-title">Олег Егоров</h4>
+
+							<div class="our-team-social">
+								<a href="index.html#"><img src="images/twitter.png" alt=""></a>
+								<a href="index.html#"><img src="images/instagram.png" alt=""></a>
+								<a href="index.html#"><img src="images/facebook.png" alt=""></a>
+							</div>
+
+							<p>Основатель компании</p>
+						</div>
+					</div>
+					<!-- TEAM 1 END -->
+
+					<!-- TEAM 2 START -->
+					<div class="our-team-item" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+						<div class="our-team-item-top" style="background-image: url(images/team-2.png);"></div>
+						<div class="our-team-item-bottom">
+							<h4 class="gradient-title">Олег Егоров</h4>
+
+							<div class="our-team-social">
+								<a href="index.html#"><img src="images/twitter.png" alt=""></a>
+								<a href="index.html#"><img src="images/instagram.png" alt=""></a>
+								<a href="index.html#"><img src="images/facebook.png" alt=""></a>
+							</div>
+
+							<p>Основатель компании</p>
+						</div>
+					</div>
+					<!-- TEAM 2 END -->
+
+					<!-- TEAM 3 START -->
+					<div class="our-team-item" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+						<div class="our-team-item-top" style="background-image: url(images/team-3.png);"></div>
+						<div class="our-team-item-bottom">
+							<h4 class="gradient-title">Олег Егоров</h4>
+
+							<div class="our-team-social">
+								<a href="index.html#"><img src="images/twitter.png" alt=""></a>
+								<a href="index.html#"><img src="images/instagram.png" alt=""></a>
+								<a href="index.html#"><img src="images/facebook.png" alt=""></a>
+							</div>
+
+							<p>Основатель компании</p>
+						</div>
+					</div>
+					<!-- TEAM 3 END -->
+
+					<!-- TEAM 4 START -->
+					<div class="our-team-item" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+						<div class="our-team-item-top" style="background-image: url(images/team-4.png);"></div>
+						<div class="our-team-item-bottom">
+							<h4 class="gradient-title">Олег Егоров</h4>
+
+							<div class="our-team-social">
+								<a href="index.html#"><img src="images/twitter.png" alt=""></a>
+								<a href="index.html#"><img src="images/instagram.png" alt=""></a>
+								<a href="index.html#"><img src="images/facebook.png" alt=""></a>
+							</div>
+
+							<p>Основатель компании</p>
+						</div>
+					</div>
+					<!-- TEAM 4 END -->
+
+					<!-- TEAM 5 START -->
+					<div class="our-team-item" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+						<div class="our-team-item-top" style="background-image: url(images/team-5.png);"></div>
+						<div class="our-team-item-bottom">
+							<h4 class="gradient-title">Олег Егоров</h4>
+
+							<div class="our-team-social">
+								<a href="index.html#"><img src="images/twitter.png" alt=""></a>
+								<a href="index.html#"><img src="images/instagram.png" alt=""></a>
+								<a href="index.html#"><img src="images/facebook.png" alt=""></a>
+							</div>
+
+							<p>Основатель компании</p>
+						</div>
+					</div>
+					<!-- TEAM 5 END -->
+				</div>
+
+			</div>
+		</section>
+
+
+		<div class="main-bottom">
+			<div class="container">
+				
+				<section class="partners" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+					<div class="partners-content">
+						<a href="index.html#" class="partners-arrow-left partners-arrow"><img src="images/partners-arrow-left.png" alt=""></a>
+
+						<div class="partners-slider owl-carousel owl-theme">
+							<div class="partners-item">
+								<img src="images/partners-1.png" alt="">
+							</div>
+
+							<div class="partners-item">
+								<img src="images/partners-2.png" alt="">
+							</div>
+
+							<div class="partners-item">
+								<img src="images/partners-3.png" alt="">
+							</div>
+
+							<div class="partners-item">
+								<img src="images/partners-4.png" alt="">
+							</div>
+
+							<div class="partners-item">
+								<img src="images/partners-5.png" alt="">
+							</div>
+
+							<div class="partners-item">
+								<img src="images/partners-6.png" alt="">
+							</div>
+						</div>
+
+						<a href="index.html#" class="partners-arrow-right partners-arrow"><img src="images/partners-arrow-right.png" alt=""></a>
+					</div>
+				</section>
+
+				<footer class="footer" id="footer">
+					<div class="container">
+
+						<div class="row aic">
+							<div class="col-lg-4 col-md-12">
+								<div class="footer-logo" data-aos-offset="200" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+									<a href="index.html#"><img src="images/footer-logo.png" alt=""></a>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6 col-sm-6">
+								<div class="footer-envelope" data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">
+									<div class="footer-envelope-img"><img src="images/envelope.png" alt=""></div>
+									<div class="footer-envelope-text">jayrun@mail.com</div>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6 col-sm-6">
+								<div class="footer-call" data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+									<div class="footer-call-img"><img src="images/call-volume.png" alt=""></div>
+									<div class="footer-call-text">8 800 800-00-00</div>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-12">
+								<div class="by-arvpro" data-aos-offset="200" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+									<p>Разработано</p>
+									<a href="index.html#"><img src="images/arvpro.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer-map" data-aos-offset="200" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1729.45051388659!2d76.90145049835213!3d43.19737577840635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388368a494b5e67b%3A0x9043651c10453afd!2z0JDQniAi0JrQsNC30LDRhdGE0LjQu9GM0LwiINC40LwuINCo0LDQutC10L3QsCDQkNC50LzQsNC90L7QstCw!5e0!3m2!1sru!2skz!4v1563964874783!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+
+						<div class="footer-copyright">
+							<p>2019 Copyright JayRun. Все права защищены.</p>
+						</div>
+
+					</div>
+				</footer>
+
+			</div>
+		</div>
+
+	</main>
+	
+	<script src="js/partials/aos.js"></script>
+	<script src="js/partials/jquery.magnific-popup.min.js"></script>
+	<script src="js/partials/owl.carousel.min.js"></script>
+	<script src="js/partials/jquery.range2dslider.js"></script>
+	<script src="js/partials/jquery.mask.min.js"></script>
+	<script src="js/partials/jquery.magnific-popup.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
