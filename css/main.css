@@ -378,8 +378,8 @@ h2 {
   opacity: .5; }
 
 .calculator-range .xdsoft_range2dslider .xdsoft_range2dslider_box {
-  height: 8px !important;
-  width: 96% !important;
+  height: 8px ;
+  width: 96% ;
   margin-left: 2%;
   border-radius: 15px; }
 
@@ -426,7 +426,7 @@ h2 {
   display: flex;
   margin-top: 20px; }
   .header .calculator-radio .calculator-min-title {
-    margin: 0 !important; }
+    margin: 0 ; }
   .header .calculator-radio .radio-item {
     margin-left: 35px;
     display: flex; }
@@ -1006,7 +1006,7 @@ h2 {
         color: #fff; }
     .header .cap-right {
       flex-direction: column;
-      align-items: flex-start !important;
+      align-items: flex-start ;
       justify-content: center; }
       .header .cap-right .call-envelope p {
         font-size: 16px; }
@@ -1133,7 +1133,7 @@ h2 {
 
 @media (min-width: 2200px) {
   .main-right-bg {
-    background-image: url("../images/header-right-bg-big.png") !important;
+    background-image: url("../images/header-right-bg-big.png") ;
     background-size: cover;
     right: 9rem;
     top: -12rem;
